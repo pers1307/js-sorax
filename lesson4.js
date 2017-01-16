@@ -22,6 +22,35 @@ console.log(2 .toFixed(2)); // И даже на прямую с числовым
 console.log(n.toExponential()); // Перевод в эксподенциальную форму
 console.log(n.toPrecision(8)); // Вывод с определенной точностью
 
-/**
- * 7:11
- */
+var  i = 10;
+console.log(++i); // 11
+console.log(i);   // 11
+console.log(i++); // 11
+console.log(i);   // 12
+
+i *= 2; // Краткий синтаксис
+
+console.log(10 == '10'); // Сравнение с приведением типов
+console.log(10 === 10);  // Сравнение без приведения типов (!) лучший вариант
+
+console.log(Math.sqrt(25));
+console.log(Math.pow(3, 5));
+
+console.log(Math.PI); // Сожержание констант
+
+// При выходе числа из возможного числового диапазона, js будет отдавать
+// значение Infinity; -Infinity
+
+console.log(typeof Infinity); // number
+
+console.log(5 / 0); // Infinity
+
+console.log(0 / 0); // NaN (Когда делаем то, что в математике делать нельзя)
+
+console.log(Infinity / Infinity); // NaN
+
+console.log(Math.sqrt(-10)); // NaN
+
+console.log(NaN === NaN); // false
+
+console.log(0.2 + 0.1); // 0.30000000000000004
