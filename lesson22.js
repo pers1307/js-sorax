@@ -38,5 +38,5 @@ delete months[3];
 console.log(array3);
 
 /**
- * 5:41
+ * 24: 5:41
  */
